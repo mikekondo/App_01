@@ -104,7 +104,8 @@ struct ContentView: View {
             Button(action: {
                 bottan=bottan+1
                 print("つぎへ")
-                
+                print("つぎへ")
+                print("つぎへ")
             }) {
                 if answerNumber==0{
                     Text("サウンドがヒントだぞ")
