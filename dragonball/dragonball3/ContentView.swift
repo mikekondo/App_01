@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  dragonball3
-//
-//  Created by admin on 2021/04/17.
-//
 import SwiftUI
 
 struct ContentView: View {
@@ -15,9 +9,10 @@ struct ContentView: View {
         VStack {
             if answerNumber==0{
                 Text("ドラゴンボールキャラ当てゲーム")
-                    .padding(.bottom)
-                    .font(.system(size: 20))
                     .background(Color.orange)
+                    .frame(maxWidth: .infinity)
+                    .font(.title)
+                    .padding(.bottom)
                 }//if answerNumber==0ここまで
             else if answerNumber==1{
                 Image("goku").resizable().aspectRatio(contentMode: .fit)
@@ -125,7 +120,8 @@ struct ContentView: View {
                 }
             }
         }//if bottan%2==0ここまで
-        }//VStack ここまで
+        }
+        .padding(.bottom)//VStack ここまで
         }// var body: some Viewここまで
 }//struct ContentView: Viewここまで
 struct ContentView_Previews: PreviewProvider {
@@ -133,3 +129,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
