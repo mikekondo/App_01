@@ -9,3 +9,7 @@ dragonball:ドラゴンボールキャラ当てアプリ
 # 使用した環境
 
 xcode,swiftUI
+
+# 動作確認環境
+
+xcode
