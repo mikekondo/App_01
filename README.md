@@ -12,6 +12,11 @@ dragonball:ドラゴンボールキャラ当てアプリ
 
 xcode,swiftUI
 
+# 使用したフレームワーク
+
+SwiftUI,MapKit,UIKit,SafariServices
+
+
 # 動作確認環境
 iPhone8
 
